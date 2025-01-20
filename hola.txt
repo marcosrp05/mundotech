@@ -1,0 +1,49 @@
+<header>
+        <a href="index.php"><img src="img/logoMundoTech.png" class="logo" alt="logo" height="150" width="200"></a>
+        <ul>
+            <li><a href="index.php">Inicio</a></li>
+            <li><a href="productos.php">Productos</a></li>
+            <li><a href="ofertas.php">Ofertas</a></li>
+            <li><a href="contacto.php">Contacto</a></li>            
+        </ul>
+</header>
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:120px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #325172;
+}
+.logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+li{
+    font-family: "Ubuntu", serif;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
